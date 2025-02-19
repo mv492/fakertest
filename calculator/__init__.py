@@ -35,3 +35,5 @@ class Calculator:
     def divide(a: Decimal, b: Decimal) -> Decimal:
         # Perform division by delegating to the _perform_operation method with the divide operation
         return Calculator._perform_operation(a, b, divide)
+    
+    
